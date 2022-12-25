@@ -1,0 +1,96 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: url(header2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.neonText {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4.2rem;    
+  cursor: default;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #FF33D1,
+      0 0 80px #FF33D1,
+      0 0 90px #FF33D1,
+      0 0 100px #FF33D1,
+      0 0 150px #FF33D1;
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+  
+h2 {
+ font-size: 1.8rem;
+ cursor: default;
+}
+.container-1 {
+  margin-top: 20vh;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #010a01;
+}  
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+hr {
+  color: #E3B5D0;
+  border-width: 5px;
+  max-width: 10px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  color: #E3B5D0;
+  flex-direction: row;
+  
+
+}
+
+.btn-light {
+  background-color: transparent;
+  border: 1px solid #E3B5D0;
+  
+}
+
+.btn-light:hover {
+  background-color: #E3B5D0;
+  border-color: #E3B5D0;
+  cursor: default;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  
+}​
